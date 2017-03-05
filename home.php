@@ -1,27 +1,26 @@
-<br><br>
 <div class="container">
-    <center><h1><b>Welcome Back!</b></h1></center><br><br>
-      <div class="col-xm-12 col-md-3 "> 
-        <ul class="list-group">
-          
-          <li class="list-group-item">
-               <b><center>Albert Serenuela</center></b>
-               <center>USER</center>
-          </li><br>
-          <li class="list-group-item">  
-            <p><b>Age:</b> 18 yrs old</p>
-            <p><b>Email:</b> albert@gmail.com</p>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-8 col-md-offset-1">   
-        <ul class="list-group">
-           <li class="list-group-item">
-              <h2>Background:</h2>
-              <hr>
-                <p>foodist, promoter of alternative medicine, conspiracy theorist, entrepreneur, and spokesman for the lifestyle.</p>
-              <hr>
-          </li><br>
-        </ul>
-      </div>
-    </div>
+   <div class="col-md-12 col-md-12 col-md-12">  
+    <form id="contact" action="" method="post">
+    <h3>Add Client</h3>
+    <fieldset>
+      <input placeholder="First Name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Last Name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Height" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Weight" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Nutritionist" type="password" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <button class="btn btn-default">Cancel</button>
+      <button class="btn btn-success" href="">Submit</button>
+    </fieldset>
+    </form>
+  </div> 
+</div>  
